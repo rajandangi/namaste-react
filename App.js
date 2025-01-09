@@ -7,6 +7,8 @@
  * </div>
  */
 
+// const heading = React.createElement('div', { id: "parent" }, "Hello from React");
+
 const heading = React.createElement('div', { id: "parent" },
     React.createElement("div", { id: "child" },
         [
