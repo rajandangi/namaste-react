@@ -1,23 +1,18 @@
-/**
- * <div id="parent">
- *  <div id="child">
- *   <h1>Hello from React</h1>
- *   <h2> This is h2 title</h2>
- *  </div>
- * </div>
- */
+import React from "react";
+import ReactDOM from "react-dom/client";
 
 // const heading = React.createElement('div', { id: "parent" }, "Hello from React");
 
 const heading = React.createElement('div', { id: "parent" },
     React.createElement("div", { id: "child" },
         [
-            React.createElement("h1", {}, "Hello from React"),
-            React.createElement("h2", {}, "This is h2 title")
+            React.createElement("h1", { key: 1 }, "Hello from React"),
+            React.createElement("h2", { key: 2 }, "This is h2 title")
         ]
     )
 );
-console.log(heading);
+// Javascript Object
+// console.log(heading);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
