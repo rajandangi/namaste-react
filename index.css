@@ -100,3 +100,18 @@
         }
     }
 }
+
+
+/* Shimmer Card style */
+.shimmer-wrapper{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+
+    .shimmer-card{
+        background: var(--light-grey-color);
+        border-radius: 0.5rem;
+        height: 300px;
+    }
+}
