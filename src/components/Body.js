@@ -9,7 +9,7 @@ const Body = () => {
 
     const filterTopRatedRestaurants = () => {
         const topRatedRestaurants = restaurants.filter((restaurant) => restaurant.data.rating > 4);
-        setRestaurants(topRatedRestaurants);
+        setFilteredRestaurants(topRatedRestaurants);
     }
 
     const searchRestaurants = () => {
