@@ -53,11 +53,6 @@
     }
 }
 
-
-.filter{
-    margin: 1rem 0;
-}
-
 .btn{
     background: var(--green-200);
     border: none;
@@ -69,9 +64,38 @@
     transition: 0.3s;
 
     &:hover{
-        background: var(--lighter-grey-color);
+        background-color: rgb(74 222 128 / 80%);
     }
 }
+
+
+.filter{
+    margin: 1rem 0;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.search-container {
+    display: flex;
+
+    .search-input {
+        padding: 0.5rem 1rem;
+        border: 1px solid var(--green-200);
+        border-radius: 0.5rem 0 0 0.5rem; /* Left side rounded corners only */
+        font-size: 1rem;
+        color: var(--dark-grey-color);
+
+        &:focus {
+            outline: none;
+        }
+    }
+
+    .btn {
+        border-radius: 0 0.5rem 0.5rem 0; /* Right side rounded corners only */
+    }
+}
+
 
 .restaurant-container{
     display: grid;
@@ -115,3 +139,4 @@
         height: 300px;
     }
 }
+
