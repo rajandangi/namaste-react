@@ -5,6 +5,7 @@
     --light-grey-color: #f0f0f0;
     --lighter-grey-color: #e0e0e0;
     --dark-grey-color: #333;
+    --green-200: #9ae6b4;
 }
 
 .body{
@@ -55,23 +56,22 @@
 
 .filter{
     margin: 1rem 0;
-
-    .filter-btn{
-        background: var(--light-grey-color);
-        border: none;
-        padding: 0.5rem 1rem;
-        border-radius: 0.5rem;
-        cursor: pointer;
-        font-size: 1rem;
-        color: var(--dark-grey-color);
-        transition: 0.3s;
-
-        &:hover{
-            background: var(--lighter-grey-color);
-        }
-    }
 }
 
+.btn{
+    background: var(--green-200);
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-size: 1rem;
+    color: var(--dark-grey-color);
+    transition: 0.3s;
+
+    &:hover{
+        background: var(--lighter-grey-color);
+    }
+}
 
 .restaurant-container{
     display: grid;

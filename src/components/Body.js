@@ -24,7 +24,7 @@ const Body = () => {
     return (restaurants.length === 0 ? <Shimmer /> :
         <div className="body">
             <div className='filter'>
-                <button className='filter-btn' onClick={filterTopRatedRestaurants}>Top Rated Restaurants</button>
+                <button className='btn' onClick={filterTopRatedRestaurants}>Top Rated Restaurants</button>
             </div>
             <div className="restaurant-container">
                 {restaurants.map((restaurant) => {
