@@ -4,10 +4,6 @@ import { useState } from 'react';
 const Header = () => {
     const [btnText, setBtnText] = useState('Sign Up');
 
-    const handleBtnClick = () => {
-        btnText === 'Sign Up' ? setBtnText('Sign In') : setBtnText('Sign Up');
-    }
-
     return (
         <div className="header">
             <div className="logo-container">
