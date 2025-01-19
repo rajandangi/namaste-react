@@ -11,7 +11,28 @@
                     "Wraps"
                 ],
                 "rating": 3.8,
-                "time": 38
+                "time": 38,
+                "costfortwoMessage": "₹ 400 for two",
+                "menu": [
+                    {
+                        "id": 1,
+                        "name": "Chicken Zinger Burger",
+                        "price": 200,
+                        "image": "https://picsum.photos/seed/11/200/300"
+                    },
+                    {
+                        "id": 2,
+                        "name": "Chicken Popcorn",
+                        "price": 150,
+                        "image": "https://picsum.photos/seed/12/200/300"
+                    },
+                    {
+                        "id": 3,
+                        "name": "Chicken Bucket",
+                        "price": 300,
+                        "image": "https://picsum.photos/seed/13/200/300"
+                    }
+                ]
             }
         },
         {
@@ -25,7 +46,28 @@
                     "Wraps"
                 ],
                 "rating": 4.1,
-                "time": 38
+                "time": 38,
+                "costfortwoMessage": "₹ 500 for two",
+                "menu": [
+                    {
+                        "id": 1,
+                        "name": "Margherita",
+                        "price": 200,
+                        "image": "https://picsum.photos/seed/21/200/300"
+                    },
+                    {
+                        "id": 2,
+                        "name": "Farmhouse",
+                        "price": 300,
+                        "image": "https://picsum.photos/seed/22/200/300"
+                    },
+                    {
+                        "id": 3,
+                        "name": "Peppy Paneer",
+                        "price": 250,
+                        "image": "https://picsum.photos/seed/23/200/300"
+                    }
+                ]
             }
         },
         {
@@ -39,7 +81,46 @@
                     "Wraps"
                 ],
                 "rating": 3.9,
-                "time": 34
+                "time": 34,
+                "costfortwoMessage": "₹ 450 for two",
+                "menu": [
+                    {
+                        "id": 1,
+                        "name": "Whopper",
+                        "price": 200,
+                        "image": "https://picsum.photos/seed/31/200/300"
+                    },
+                    {
+                        "id": 2,
+                        "name": "Veggie Burger",
+                        "price": 150,
+                        "image": "https://picsum.photos/seed/32/200/300"
+                    },
+                    {
+                        "id": 3,
+                        "name": "Chicken Burger",
+                        "price": 250,
+                        "image": "https://picsum.photos/seed/33/200/300"
+                    },
+                    {
+                        "id": 4,
+                        "name": "Fries",
+                        "price": 100,
+                        "image": "https://picsum.photos/seed/34/200/300"
+                    },
+                    {
+                        "id": 5,
+                        "name": "Coke",
+                        "price": 50,
+                        "image": "https://picsum.photos/seed/35/200/300"
+                    },
+                    {
+                        "id": 6,
+                        "name": "Ice Cream",
+                        "price": 100,
+                        "image": "https://picsum.photos/seed/36/200/300"
+                    }
+                ]
             }
         },
         {
@@ -53,7 +134,28 @@
                     "Wraps"
                 ],
                 "rating": 4.3,
-                "time": 35
+                "time": 35,
+                "costfortwoMessage": "₹ 350 for two",
+                "menu": [
+                    {
+                        "id": 1,
+                        "name": "Veggie Delight",
+                        "price": 200,
+                        "image": "https://picsum.photos/seed/41/200/300"
+                    },
+                    {
+                        "id": 2,
+                        "name": "Paneer Tikka",
+                        "price": 250,
+                        "image": "https://picsum.photos/seed/42/200/300"
+                    },
+                    {
+                        "id": 3,
+                        "name": "Chicken Ham",
+                        "price": 300,
+                        "image": "https://picsum.photos/seed/43/200/300"
+                    }
+                ]
             }
         },
         {
@@ -67,7 +169,28 @@
                     "Wraps"
                 ],
                 "rating": 3.7,
-                "time": 48
+                "time": 48,
+                "costfortwoMessage": "₹ 400 for two",
+                "menu": [
+                    {
+                        "id": 1,
+                        "name": "McAloo Tikki",
+                        "price": 50,
+                        "image": "https://picsum.photos/seed/51/200/300"
+                    },
+                    {
+                        "id": 2,
+                        "name": "McVeggie",
+                        "price": 100,
+                        "image": "https://picsum.photos/seed/52/200/300"
+                    },
+                    {
+                        "id": 3,
+                        "name": "McChicken",
+                        "price": 150,
+                        "image": "https://picsum.photos/seed/53/200/300"
+                    }
+                ]
             }
         },
         {
@@ -81,7 +204,28 @@
                     "Wraps"
                 ],
                 "rating": 4.5,
-                "time": 38
+                "time": 38,
+                "costfortwoMessage": "₹ 600 for two",
+                "menu": [
+                    {
+                        "id": 1,
+                        "name": "Veggie Supreme",
+                        "price": 200,
+                        "image": "https://picsum.photos/seed/61/200/300"
+                    },
+                    {
+                        "id": 2,
+                        "name": "Chicken Supreme",
+                        "price": 300,
+                        "image": "https://picsum.photos/seed/62/200/300"
+                    },
+                    {
+                        "id": 3,
+                        "name": "Paneer Supreme",
+                        "price": 250,
+                        "image": "https://picsum.photos/seed/63/200/300"
+                    }
+                ]
             }
         }
     ]
