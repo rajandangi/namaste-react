@@ -211,3 +211,10 @@
     color: var(--red-color);
     font-weight: bold;
 }
+
+.user-profile{
+    padding: 1rem;
+    border: 1px solid var(--grey-color);
+    margin: 0 auto;
+    border-radius: 0.5rem;
+}
