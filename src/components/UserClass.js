@@ -34,6 +34,14 @@ class UserClass extends React.Component {
         }
     }
 
+    componentDidUpdate() {
+        console.log('This will be called after every render');
+    }
+
+    componentWillUnmount() {
+        console.log('This will be called before unmounting the component');
+    }
+
     render() {
         const { count, userInfo, error } = this.state;
 
