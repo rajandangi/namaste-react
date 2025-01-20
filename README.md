@@ -35,3 +35,15 @@
     - Syntax: `const [state, setState] = useState(initialState);`
 2. useEffect: It is used to perform side effects in functional components.
     - Syntax: `useEffect(() => { // code }, [dependencies]);`
+
+## React Lifecycle Methods
+1. Mounting
+    - constructor()
+    - render()
+    - componentDidMount()
+2. Updating
+    - render()
+    - componentDidUpdate()
+3. Unmounting
+    - componentWillUnmount()
+For more reference [React-Lifecycle-methods](https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)
