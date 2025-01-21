@@ -1,12 +1,16 @@
-import React from "react";
+import React, { lazy, Suspense } from "react";
 import ReactDOM from "react-dom/client";
 import Header from "./components/Header";
 import Body from "./components/Body";
-import About from "./components/About";
 import Contact from "./components/Contact";
+import Loading from "./components/Loading";
 import Error from "./components/Error";
 import { createBrowserRouter, Outlet, RouterProvider } from "react-router-dom";
 import RestaurantMenu from "./components/RestaurantMenu";
+
+// Chunking/Code Splitting/ Dynamic Bundling/Lazy Loading/ On Demand Loading
+// See @https://react.dev/reference/react/lazy
+const About = lazy(() => import("./components/About"));
 
 const AppLayout = () => {
     return (
@@ -28,7 +32,7 @@ const appRoute = createBrowserRouter([
             },
             {
                 path: '/about',
-                element: <About />,
+                element: (<Suspense fallback={<Loading />}><About /></Suspense>),
             },
             {
                 path: '/contact',
