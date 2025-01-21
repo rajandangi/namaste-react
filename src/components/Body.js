@@ -3,11 +3,13 @@ import Shimmer from './Shimmer';
 import { useState, useEffect } from 'react';
 import { RESTAURANT_API } from '../utils/constants';
 import { Link } from 'react-router-dom';
+import useOnlineStatus from '../utils/useOnlineStatus';
 
 const Body = () => {
     const [restaurants, setRestaurants] = useState([]);
     const [filteredRestaurants, setFilteredRestaurants] = useState([]);
     const [searchTerm, setSearchTerm] = useState('');
+    const onlineStatus = useOnlineStatus();
 
     const filterTopRatedRestaurants = () => {
         const topRatedRestaurants = restaurants.filter((restaurant) => restaurant.data.rating > 4);
@@ -39,6 +41,14 @@ const Body = () => {
         fetchRestaurants();
     }, []);
 
+    if (onlineStatus === false) {
+        return (
+            <div className="online-status">
+                <p>You are offline. Please check your internet connection.</p>
+            </div>
+        )
+    }
+    
     return (restaurants.length === 0 ? <Shimmer /> :
         <div className="body">
             <div className='filter'>
