@@ -4,8 +4,8 @@ const Error = () => {
     const error = useRouteError();
     console.log(error)
     return (
-        <div className="error">
-            <h1>{error.status}</h1>
+        <div className="grid place-items-center h-screen">
+            <h1 className='text-xl'>{error.status}</h1>
             <p>{error.statusText}</p>
         </div>
     )

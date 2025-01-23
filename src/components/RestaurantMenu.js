@@ -12,13 +12,13 @@ const RestaurantMenu = () => {
     }
 
     return (
-        <div className="restaurant-menu">
-            <div className="restaurant-summary">
-                <img src={restaurantMenu.data.logo} alt={restaurantMenu.name} className="restaurant-img" />
-                <div className="restaurant-info">
-                    <h1>{restaurantMenu.data.name}</h1>
-                    <p>{restaurantMenu.data.cuisins.join(", ")}</p>
-                    <div className="meta-info">
+        <div className="mx-1 space-y-4">
+            <div className="flex gap-8 border border-solid border-gray-200 p-4 rounded-md">
+                <img src={restaurantMenu.data.logo} alt={restaurantMenu.name} className="w-[300px] h-[200px] object-cover rounded-md" />
+                <div className="space-y-2">
+                    <h1 className="text-xl font-bold">{restaurantMenu.data.name}</h1>
+                    <p className="font-medium">{restaurantMenu.data.cuisins.join(", ")}</p>
+                    <div className="flex gap-4">
                         <span>⭐ {restaurantMenu.data.rating}</span>
                         <span>🕒 {restaurantMenu.data.time} mins</span>
                         <span>💰 {restaurantMenu.data.costfortwoMessage}</span>
@@ -26,9 +26,9 @@ const RestaurantMenu = () => {
                 </div>
             </div>
 
-            <div className="menu-items">
-                <h2>Menu</h2>
-                <div className="menu-list">
+            <div className="space-y-4 font-bold">
+                <h2 className="text-2xl">Menu</h2>
+                <div className="grid grid-container gap-6">
                     {restaurantMenu.data.menu.map((item) => (
                         <MenuCard key={item.id} menu={item} />
                     ))}

@@ -2,16 +2,16 @@ const RestaurantCard = (props) => {
     const { data } = props;
 
     return (
-        <div className="restaurant-card">
+        <div className="bg-custom-gray-100 rounded-lg hover:bg-custom-gray-200">
             <img
                 src={data.logo || "https://picsum.photos/200/300"}
                 alt="Restaurant food"
-                className="restaurant-img"
+                className="w-full h-[200px] object-cover overflow-hidden rounded-t-lg"
             />
-            <div className="card-body">
-                <h3 className="restaurant-name">{data.name}</h3>
-                <div className="dish-name">{data.cuisins.join(', ')}</div>
-                <h4 className="rating">{"Rating: " + data.rating}</h4>
+            <div className="py-2 px-4 space-y-1">
+                <h3 className="font-bold">{data.name}</h3>
+                <div>{data.cuisins.join(', ')}</div>
+                <h4>{"Rating: " + data.rating}</h4>
                 <h4>{data.time + " Minutes"}</h4>
             </div>
         </div>
