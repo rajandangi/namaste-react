@@ -1,4 +1,4 @@
-import RestaurantCard from './RestaurantCard';
+import RestaurantCard, { withPromotedLabel } from "./RestaurantCard";
 import Shimmer from './Shimmer';
 import { useState, useEffect } from 'react';
 import { RESTAURANT_API } from '../utils/constants';
@@ -10,6 +10,8 @@ const Body = () => {
     const [filteredRestaurants, setFilteredRestaurants] = useState([]);
     const [searchTerm, setSearchTerm] = useState('');
     const onlineStatus = useOnlineStatus();
+
+    const PromotedRestaurantCard = withPromotedLabel(RestaurantCard);
 
     const filterTopRatedRestaurants = () => {
         const topRatedRestaurants = restaurants.filter((restaurant) => restaurant.data.rating > 4);
@@ -32,7 +34,7 @@ const Body = () => {
     async function fetchRestaurants() {
         const response = await fetch(RESTAURANT_API);
         const data = await response.json();
-        // setRestaurants(data);
+        setRestaurants(data);
         setFilteredRestaurants(data); // set filteredRestaurants to all restaurants initially
     }
 
@@ -68,7 +70,7 @@ const Body = () => {
                 {filteredRestaurants.map((restaurant) => {
                     return (
                         <Link key={restaurant.id} to={"/restaurant/" + restaurant.id}>
-                            <RestaurantCard data={restaurant.data} />
+                            { restaurant.data.promoted ? <PromotedRestaurantCard data={restaurant.data}/> : <RestaurantCard data={restaurant.data}/>}
                         </Link>
                     )
                 })}
