@@ -14,7 +14,12 @@ const MenuCard = ({ menu, showItems, toggleItems }) => {
                                 <p className="text-sm font-medium text-green-600">₹ {item.price}</p>
                                 <p className="text-gray-500">{item.ingredients.join(', ')}</p>
                             </div>
-                            <img src={item.image} alt={item.name} className="w-16 h-16 object-cover rounded-sm" />
+                            <div className="relative">
+                                <img src={item.image} alt={item.name} className="w-24 h-24 object-cover rounded-sm" />
+                                <button className="absolute bottom-1 left-1/2 transform -translate-x-1/2 px-2 py-1 bg-gray-200 opacity-50 hover:opacity-90  rounded-sm shadow-sm text-green-700 font-extrabold">
+                                    +
+                                </button>
+                            </div>
                         </div>
                     ))
                     }
