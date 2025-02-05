@@ -13,7 +13,7 @@ const RestaurantMenu = () => {
 
     return (
         <div className="mx-1 space-y-4">
-            <div className="flex gap-8 border border-solid border-gray-200 p-4 rounded-md">
+            <div className="flex gap-8 border border-solid border-gray-200 p-4 rounded-md shadow-sm">
                 <img src={restaurantMenu.data.logo} alt={restaurantMenu.name} className="w-[300px] h-[200px] object-cover rounded-md" />
                 <div className="space-y-2">
                     <h1 className="text-xl font-bold">{restaurantMenu.data.name}</h1>
@@ -34,6 +34,7 @@ const RestaurantMenu = () => {
                     ))}
                 </div>
             </div>
+            
         </div>
     )
 }

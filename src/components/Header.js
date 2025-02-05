@@ -6,7 +6,7 @@ const Header = () => {
     const [btnText, setBtnText] = useState('Sign Up');
 
     return (
-        <div className="flex justify-between items-center  border border-solid border-custom-gray-200 rounded-lg p-6 m-1">
+        <div className="flex justify-between items-center border-b-custom-gray-200 p-6 shadow-sm bg-white mb-4">
             <div className="logo-container">
                 <h1 className="text-2xl font-bold">{SITE_NAME}</h1>
             </div>
