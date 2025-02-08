@@ -10,7 +10,7 @@ const RestaurantMenu = () => {
   const restaurantMenu = useRestaurantMenu(resId);
 
   if (restaurantMenu === null) {
-    return <Shimmer />
+    return <Shimmer />;
   }
 
   return (
@@ -18,7 +18,7 @@ const RestaurantMenu = () => {
       <div className="flex gap-8 border border-solid border-gray-200 p-4 rounded-md shadow-sm">
         <img
           src={restaurantMenu.data.logo}
-          alt={restaurantMenu.name}
+          alt={restaurantMenu.data.name}
           className="w-[300px] h-[200px] object-cover rounded-md"
         />
         <div className="space-y-2">
@@ -34,13 +34,16 @@ const RestaurantMenu = () => {
         </div>
       </div>
 
-      <div className="space-y-4 ">
+      <div className="space-y-4">
         <h2 className="text-2xl font-bold">Menu</h2>
         <div className="grid gap-4">
-
-          {/* Controlled Component */}
           {restaurantMenu.data.menu.map((item, index) => (
-            <MenuCard key={item.id} menu={item} showItems={index === showItems} toggleItems={()=> setShowItems(index)} />
+            <MenuCard
+              key={item.id}
+              menu={item}
+              showItems={index === showItems}
+              toggleItems={() => setShowItems(index)}
+            />
           ))}
         </div>
       </div>
