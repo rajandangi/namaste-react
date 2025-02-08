@@ -39,7 +39,7 @@ const RestaurantMenu = () => {
         <div className="grid gap-4">
           {restaurantMenu.data.menu.map((item, index) => (
             <MenuCard
-              key={item.id}
+              key={item.title}
               menu={item}
               showItems={index === showItems}
               toggleItems={() => setShowItems(index)}

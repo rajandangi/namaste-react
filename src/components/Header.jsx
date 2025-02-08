@@ -1,9 +1,11 @@
 import { SITE_NAME } from '../utils/constants';
 import { useState } from 'react';
+import { useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 
 const Header = () => {
     const [btnText, setBtnText] = useState('Sign Up');
+    const cartItems = useSelector((store)=> store.cart.items);
 
     return (
         <div className="flex justify-between items-center border-b-custom-gray-200 p-6 shadow-sm bg-white mb-4">
@@ -18,7 +20,7 @@ const Header = () => {
                     <li className='text-[1.1rem] font-semibold'>
                         <Link className='text-[1.1rem] font-semibold relative' to='cart'>Cart
                             <span className='absolute flex items-center justify-center top-[-1rem] right-[-1rem] bg-green-300 rounded-full w-6 h-6 p-2 text-[0.9rem]'>
-                                32
+                                {cartItems.length}
                             </span>
                         </Link>
                     </li>

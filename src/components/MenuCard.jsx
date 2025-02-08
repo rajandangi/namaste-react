@@ -1,4 +1,13 @@
+import { useDispatch } from "react-redux";
+import { addItem } from "../utils/cartSlice";
+
 const MenuCard = ({ menu, showItems, toggleItems }) => {
+    const dispatch = useDispatch();
+
+    const addToCart = (item) => {
+        dispatch(addItem(item));
+    }
+    
     return (
         <section className="rounded-md overflow-hidden shadow-sm grid">
             <div className="bg-custom-gray-100">
@@ -16,7 +25,8 @@ const MenuCard = ({ menu, showItems, toggleItems }) => {
                             </div>
                             <div className="relative">
                                 <img src={item.image} alt={item.name} className="w-24 h-24 object-cover rounded-sm" />
-                                <button className="absolute bottom-1 left-1/2 transform -translate-x-1/2 px-2 py-1 bg-gray-200 opacity-50 hover:opacity-90  rounded-sm shadow-sm text-green-700 font-extrabold">
+                                <button className="absolute bottom-1 left-1/2 transform -translate-x-1/2 px-2 py-1 bg-gray-200 opacity-50 hover:opacity-90  rounded-sm shadow-sm text-green-700 font-extrabold"
+                                onClick={() => addToCart(item)}>
                                     +
                                 </button>
                             </div>
