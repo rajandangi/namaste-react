@@ -5,12 +5,14 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
     const [btnText, setBtnText] = useState('Sign Up');
-    const cartItems = useSelector((store)=> store.cart.items);
+    const cartItems = useSelector((store) => store.cart.items);
 
     return (
         <div className="flex justify-between items-center border-b-custom-gray-200 p-6 shadow-sm bg-white mb-4">
             <div className="logo-container">
-                <h1 className="text-2xl font-bold">{SITE_NAME}</h1>
+                <Link to='/'>
+                    <h1 className="text-2xl font-bold">{SITE_NAME}</h1>
+                </Link>
             </div>
             <div>
                 <ul className='flex items-center justify-between gap-16'>
