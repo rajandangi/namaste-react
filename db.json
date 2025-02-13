@@ -9,6 +9,7 @@
         "rating": 3.8,
         "time": 38,
         "costfortwoMessage": "₹ 400 for two",
+        "promoted": true,
         "menu": [
           {
             "title": "Recommended",
@@ -415,6 +416,7 @@
         "rating": 4.5,
         "time": 38,
         "costfortwoMessage": "₹ 600 for two",
+        "promoted": true,
         "menu": [
           {
             "title": "Recommended",

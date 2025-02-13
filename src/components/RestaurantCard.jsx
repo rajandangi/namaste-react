@@ -1,6 +1,6 @@
 const RestaurantCard = (props) => {
     const { data } = props;
-
+    
     return (
         <div className="bg-custom-gray-100 rounded-lg hover:bg-custom-gray-200">
             <img

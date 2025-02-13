@@ -4,7 +4,7 @@ import { useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 
 const Header = () => {
-    const [btnText, setBtnText] = useState('Sign Up');
+    const [btnText, setBtnText] = useState('Login');
     const cartItems = useSelector((store) => store.cart.items);
 
     return (
@@ -28,7 +28,7 @@ const Header = () => {
                     </li>
                     <button
                         className="bg-green-200 border-none py-2 px-4 rounded-lg cursor-pointer text-custom-gray-300 hover:bg-green-300 text-[1.1rem] font-semibold"
-                        onClick={() => btnText === 'Sign Up' ? setBtnText('Sign In') : setBtnText('Sign Up')}
+                        onClick={() => btnText === 'Login' ? setBtnText('Logout') : setBtnText('Login')}
                     >
                         {btnText}
                     </button>

@@ -1,0 +1,78 @@
+{
+  "id": 1,
+  "data": {
+    "name": "KFC-Nepal",
+    "logo": "https://picsum.photos/seed/1/200/300",
+    "cuisins": ["Fast Food", "Burgers", "Wraps"],
+    "rating": 3.8,
+    "time": 38,
+    "costfortwoMessage": "₹ 400 for two",
+    "promoted": true,
+    "menu": [
+      {
+        "title": "Recommended",
+        "items": [
+          {
+            "id": 1,
+            "name": "Chicken Bucket",
+            "price": 500,
+            "image": "https://picsum.photos/seed/11/200/300",
+            "ingredients": ["Chicken", "Spices", "Oil"]
+          },
+          {
+            "id": 2,
+            "name": "Veggie Bucket",
+            "price": 400,
+            "image": "https://picsum.photos/seed/12/200/300",
+            "ingredients": ["Vegetables", "Spices", "Oil"]
+          },
+          {
+            "id": 3,
+            "name": "Chicken Popcorn",
+            "price": 300,
+            "image": "https://picsum.photos/seed/13/200/300",
+            "ingredients": ["Chicken", "Spices", "Oil"]
+          }
+        ]
+      },
+      {
+        "title": "Most Popular",
+        "items": [
+          {
+            "id": 1,
+            "name": "Zinger Burger",
+            "price": 150,
+            "image": "https://picsum.photos/seed/14/200/300",
+            "ingredients": ["Chicken", "Bun", "Lettuce", "Sauce"]
+          },
+          {
+            "id": 2,
+            "name": "Veggie Burger",
+            "price": 100,
+            "image": "https://picsum.photos/seed/15/200/300",
+            "ingredients": ["Vegetables", "Bun", "Lettuce", "Sauce"]
+          }
+        ]
+      },
+      {
+        "title": "Lowest of all Time",
+        "items": [
+          {
+            "id": 1,
+            "name": "Chicken Wrap",
+            "price": 200,
+            "image": "https://picsum.photos/seed/16/200/300",
+            "ingredients": ["Chicken", "Tortilla", "Lettuce", "Sauce"]
+          },
+          {
+            "id": 2,
+            "name": "Paneer Wrap",
+            "price": 150,
+            "image": "https://picsum.photos/seed/17/200/300",
+            "ingredients": ["Paneer", "Tortilla", "Lettuce", "Sauce"]
+          }
+        ]
+      }
+    ]
+  }
+}

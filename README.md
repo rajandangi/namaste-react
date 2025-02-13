@@ -47,3 +47,16 @@
 3. Unmounting
     - componentWillUnmount()
 For more reference [React-Lifecycle-methods](https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)
+
+
+## Setting up Testing in our app
+- Install React Testing Library
+- Install jest
+- Install Babel dependencies
+- Configure Babel
+- Configure Parcel Config file to disable default babel transpilation
+- Jest: `npx jest --init`
+- Install jsdom library to run tests in the browser environment
+- Install @babel-preset-react : To transpile JSX code `npm install @babel/preset-react`
+- Include @babel/preset-react in `babel.config.json` file
+- Install jest-dom library to use custom matchers for Jest `npm install @testing-library/jest-dom`
