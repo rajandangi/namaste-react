@@ -12,7 +12,7 @@ const MenuCard = ({ menu, showItems, toggleItems }) => {
         <section className="rounded-md overflow-hidden shadow-sm grid">
             <div className="bg-custom-gray-100">
                 <div className="flex justify-between p-2 cursor-pointer" onClick={toggleItems}>
-                    <h3 className="font-bold">{menu.title}</h3>
+                    <h3 className="font-bold" data-testid="menu-title">{menu.title}</h3>
                     <p>↓</p>
                 </div>
                 <div className="bg-gray-50 flex flex-col gap-1">
@@ -25,7 +25,7 @@ const MenuCard = ({ menu, showItems, toggleItems }) => {
                             </div>
                             <div className="relative">
                                 <img src={item.image} alt={item.name} className="w-24 h-24 object-cover rounded-sm" />
-                                <button className="absolute bottom-1 left-1/2 transform -translate-x-1/2 px-2 py-1 bg-gray-200 opacity-50 hover:opacity-90  rounded-sm shadow-sm text-green-700 font-extrabold"
+                                <button data-testid="add-to-cart" className="absolute bottom-1 left-1/2 transform -translate-x-1/2 px-2 py-1 bg-gray-200 opacity-50 hover:opacity-90  rounded-sm shadow-sm text-green-700 font-extrabold"
                                 onClick={() => addToCart(item)}>
                                     +
                                 </button>

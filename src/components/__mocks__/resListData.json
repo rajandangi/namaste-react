@@ -1,0 +1,560 @@
+[
+  {
+    "id": 1,
+    "data": {
+      "name": "KFC",
+      "logo": "https://picsum.photos/seed/1/200/300",
+      "cuisins": ["Fast Food", "Burgers", "Wraps"],
+      "rating": 3.8,
+      "time": 38,
+      "costfortwoMessage": "₹ 400 for two",
+      "promoted": true,
+      "menu": [
+        {
+          "title": "Recommended",
+          "items": [
+            {
+              "id": 1,
+              "name": "Chicken Bucket",
+              "price": 500,
+              "image": "https://picsum.photos/seed/11/200/300",
+              "ingredients": ["Chicken", "Spices", "Oil"]
+            },
+            {
+              "id": 2,
+              "name": "Veggie Bucket",
+              "price": 400,
+              "image": "https://picsum.photos/seed/12/200/300",
+              "ingredients": ["Vegetables", "Spices", "Oil"]
+            },
+            {
+              "id": 3,
+              "name": "Chicken Popcorn",
+              "price": 300,
+              "image": "https://picsum.photos/seed/13/200/300",
+              "ingredients": ["Chicken", "Spices", "Oil"]
+            }
+          ]
+        },
+        {
+          "title": "Most Popular",
+          "items": [
+            {
+              "id": 1,
+              "name": "Zinger Burger",
+              "price": 150,
+              "image": "https://picsum.photos/seed/14/200/300",
+              "ingredients": ["Chicken", "Bun", "Lettuce", "Sauce"]
+            },
+            {
+              "id": 2,
+              "name": "Veggie Burger",
+              "price": 100,
+              "image": "https://picsum.photos/seed/15/200/300",
+              "ingredients": ["Vegetables", "Bun", "Lettuce", "Sauce"]
+            }
+          ]
+        },
+        {
+          "title": "Lowest of all Time",
+          "items": [
+            {
+              "id": 1,
+              "name": "Chicken Wrap",
+              "price": 200,
+              "image": "https://picsum.photos/seed/16/200/300",
+              "ingredients": ["Chicken", "Tortilla", "Lettuce", "Sauce"]
+            },
+            {
+              "id": 2,
+              "name": "Paneer Wrap",
+              "price": 150,
+              "image": "https://picsum.photos/seed/17/200/300",
+              "ingredients": ["Paneer", "Tortilla", "Lettuce", "Sauce"]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "data": {
+      "name": "Dominos",
+      "logo": "https://picsum.photos/seed/2/200/300",
+      "cuisins": ["Pizza", "Burgers", "Wraps"],
+      "rating": 4.1,
+      "time": 38,
+      "costfortwoMessage": "₹ 500 for two",
+      "menu": [
+        {
+          "title": "Recommended",
+          "items": [
+            {
+              "id": 1,
+              "name": "Margherita",
+              "price": 200,
+              "image": "https://picsum.photos/seed/21/200/300",
+              "ingredients": ["Cheese", "Tomato Sauce", "Dough"]
+            },
+            {
+              "id": 2,
+              "name": "Farmhouse",
+              "price": 300,
+              "image": "https://picsum.photos/seed/22/200/300",
+              "ingredients": ["Cheese", "Tomato Sauce", "Vegetables", "Dough"]
+            },
+            {
+              "id": 3,
+              "name": "Peppy Paneer",
+              "price": 250,
+              "image": "https://picsum.photos/seed/23/200/300",
+              "ingredients": ["Paneer", "Cheese", "Tomato Sauce", "Dough"]
+            }
+          ]
+        },
+        {
+          "title": "Most Popular",
+          "items": [
+            {
+              "id": 1,
+              "name": "Pepperoni Pizza",
+              "price": 350,
+              "image": "https://picsum.photos/seed/24/200/300",
+              "ingredients": ["Pepperoni", "Cheese", "Tomato Sauce", "Dough"]
+            },
+            {
+              "id": 2,
+              "name": "Cheese Burst",
+              "price": 400,
+              "image": "https://picsum.photos/seed/25/200/300",
+              "ingredients": ["Cheese", "Tomato Sauce", "Dough"]
+            }
+          ]
+        },
+        {
+          "title": "Lowest of all Time",
+          "items": [
+            {
+              "id": 1,
+              "name": "Garlic Bread",
+              "price": 150,
+              "image": "https://picsum.photos/seed/26/200/300",
+              "ingredients": ["Bread", "Garlic", "Butter"]
+            },
+            {
+              "id": 2,
+              "name": "Stuffed Garlic Bread",
+              "price": 200,
+              "image": "https://picsum.photos/seed/27/200/300",
+              "ingredients": ["Bread", "Garlic", "Butter", "Cheese"]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "data": {
+      "name": "Burger King",
+      "logo": "https://picsum.photos/seed/3/200/300",
+      "cuisins": ["Fast Food", "Burgers", "Wraps"],
+      "rating": 3.9,
+      "time": 34,
+      "costfortwoMessage": "₹ 450 for two",
+      "menu": [
+        {
+          "title": "Recommended",
+          "items": [
+            {
+              "id": 1,
+              "name": "Whopper",
+              "price": 200,
+              "image": "https://picsum.photos/seed/31/200/300",
+              "ingredients": [
+                "Beef",
+                "Bun",
+                "Lettuce",
+                "Tomato",
+                "Onion",
+                "Pickles",
+                "Sauce"
+              ]
+            },
+            {
+              "id": 2,
+              "name": "Veggie Burger",
+              "price": 150,
+              "image": "https://picsum.photos/seed/32/200/300",
+              "ingredients": [
+                "Vegetables",
+                "Bun",
+                "Lettuce",
+                "Tomato",
+                "Onion",
+                "Pickles",
+                "Sauce"
+              ]
+            },
+            {
+              "id": 3,
+              "name": "Chicken Burger",
+              "price": 250,
+              "image": "https://picsum.photos/seed/33/200/300",
+              "ingredients": [
+                "Chicken",
+                "Bun",
+                "Lettuce",
+                "Tomato",
+                "Onion",
+                "Pickles",
+                "Sauce"
+              ]
+            },
+            {
+              "id": 4,
+              "name": "Fries",
+              "price": 100,
+              "image": "https://picsum.photos/seed/34/200/300",
+              "ingredients": ["Potatoes", "Salt", "Oil"]
+            },
+            {
+              "id": 5,
+              "name": "Coke",
+              "price": 50,
+              "image": "https://picsum.photos/seed/35/200/300",
+              "ingredients": ["Carbonated Water", "Sugar", "Caffeine"]
+            },
+            {
+              "id": 6,
+              "name": "Ice Cream",
+              "price": 100,
+              "image": "https://picsum.photos/seed/36/200/300",
+              "ingredients": ["Milk", "Sugar", "Cream"]
+            }
+          ]
+        },
+        {
+          "title": "Most Popular",
+          "items": [
+            {
+              "id": 1,
+              "name": "Chicken Nuggets",
+              "price": 150,
+              "image": "https://picsum.photos/seed/37/200/300",
+              "ingredients": ["Chicken", "Breading", "Oil"]
+            },
+            {
+              "id": 2,
+              "name": "Onion Rings",
+              "price": 100,
+              "image": "https://picsum.photos/seed/38/200/300",
+              "ingredients": ["Onions", "Breading", "Oil"]
+            }
+          ]
+        },
+        {
+          "title": "Lowest of all Time",
+          "items": [
+            {
+              "id": 1,
+              "name": "Chicken Fries",
+              "price": 200,
+              "image": "https://picsum.photos/seed/39/200/300",
+              "ingredients": ["Chicken", "Breading", "Oil"]
+            },
+            {
+              "id": 2,
+              "name": "Veggie Fries",
+              "price": 150,
+              "image": "https://picsum.photos/seed/40/200/300",
+              "ingredients": ["Vegetables", "Breading", "Oil"]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "data": {
+      "name": "Subway",
+      "logo": "https://picsum.photos/seed/4/200/300",
+      "cuisins": ["Fast Food", "Burgers", "Wraps"],
+      "rating": 4.3,
+      "time": 35,
+      "costfortwoMessage": "₹ 350 for two",
+      "menu": [
+        {
+          "title": "Recommended",
+          "items": [
+            {
+              "id": 1,
+              "name": "Veggie Delight",
+              "price": 200,
+              "image": "https://picsum.photos/seed/41/200/300",
+              "ingredients": [
+                "Vegetables",
+                "Bread",
+                "Lettuce",
+                "Tomato",
+                "Onion",
+                "Sauce"
+              ]
+            },
+            {
+              "id": 2,
+              "name": "Paneer Tikka",
+              "price": 250,
+              "image": "https://picsum.photos/seed/42/200/300",
+              "ingredients": [
+                "Paneer",
+                "Bread",
+                "Lettuce",
+                "Tomato",
+                "Onion",
+                "Sauce"
+              ]
+            },
+            {
+              "id": 3,
+              "name": "Chicken Ham",
+              "price": 300,
+              "image": "https://picsum.photos/seed/43/200/300",
+              "ingredients": [
+                "Chicken",
+                "Bread",
+                "Lettuce",
+                "Tomato",
+                "Onion",
+                "Sauce"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Most Popular",
+          "items": [
+            {
+              "id": 1,
+              "name": "Turkey Sub",
+              "price": 350,
+              "image": "https://picsum.photos/seed/44/200/300",
+              "ingredients": [
+                "Turkey",
+                "Bread",
+                "Lettuce",
+                "Tomato",
+                "Onion",
+                "Sauce"
+              ]
+            },
+            {
+              "id": 2,
+              "name": "Tuna Sub",
+              "price": 400,
+              "image": "https://picsum.photos/seed/45/200/300",
+              "ingredients": [
+                "Tuna",
+                "Bread",
+                "Lettuce",
+                "Tomato",
+                "Onion",
+                "Sauce"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Lowest of all Time",
+          "items": [
+            {
+              "id": 1,
+              "name": "Veggie Patty",
+              "price": 150,
+              "image": "https://picsum.photos/seed/46/200/300",
+              "ingredients": [
+                "Vegetables",
+                "Bread",
+                "Lettuce",
+                "Tomato",
+                "Onion",
+                "Sauce"
+              ]
+            },
+            {
+              "id": 2,
+              "name": "Chicken Patty",
+              "price": 200,
+              "image": "https://picsum.photos/seed/47/200/300",
+              "ingredients": [
+                "Chicken",
+                "Bread",
+                "Lettuce",
+                "Tomato",
+                "Onion",
+                "Sauce"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": 5,
+    "data": {
+      "name": "McDonalds",
+      "logo": "https://picsum.photos/seed/5/200/300",
+      "cuisins": ["Fast Food", "Burgers", "Wraps"],
+      "rating": 3.7,
+      "time": 48,
+      "costfortwoMessage": "₹ 400 for two",
+      "menu": [
+        {
+          "title": "Recommended",
+          "items": [
+            {
+              "id": 1,
+              "name": "McAloo Tikki",
+              "price": 50,
+              "image": "https://picsum.photos/seed/51/200/300",
+              "ingredients": ["Potatoes", "Bun", "Lettuce", "Sauce"]
+            },
+            {
+              "id": 2,
+              "name": "McVeggie",
+              "price": 100,
+              "image": "https://picsum.photos/seed/52/200/300",
+              "ingredients": ["Vegetables", "Bun", "Lettuce", "Sauce"]
+            },
+            {
+              "id": 3,
+              "name": "McChicken",
+              "price": 150,
+              "image": "https://picsum.photos/seed/53/200/300",
+              "ingredients": ["Chicken", "Bun", "Lettuce", "Sauce"]
+            }
+          ]
+        },
+        {
+          "title": "Most Popular",
+          "items": [
+            {
+              "id": 1,
+              "name": "Big Mac",
+              "price": 200,
+              "image": "https://picsum.photos/seed/54/200/300",
+              "ingredients": ["Beef", "Bun", "Lettuce", "Cheese", "Sauce"]
+            },
+            {
+              "id": 2,
+              "name": "McFlurry",
+              "price": 100,
+              "image": "https://picsum.photos/seed/55/200/300",
+              "ingredients": ["Milk", "Sugar", "Cream"]
+            }
+          ]
+        },
+        {
+          "title": "Lowest of all Time",
+          "items": [
+            {
+              "id": 1,
+              "name": "Chicken Nuggets",
+              "price": 150,
+              "image": "https://picsum.photos/seed/56/200/300",
+              "ingredients": ["Chicken", "Breading", "Oil"]
+            },
+            {
+              "id": 2,
+              "name": "French Fries",
+              "price": 100,
+              "image": "https://picsum.photos/seed/57/200/300",
+              "ingredients": ["Potatoes", "Salt", "Oil"]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": 6,
+    "data": {
+      "name": "Pizza Hut",
+      "logo": "https://picsum.photos/seed/6/200/300",
+      "cuisins": ["Pizza", "Burgers", "Wraps"],
+      "rating": 4.5,
+      "time": 38,
+      "costfortwoMessage": "₹ 600 for two",
+      "promoted": true,
+      "menu": [
+        {
+          "title": "Recommended",
+          "items": [
+            {
+              "id": 1,
+              "name": "Veggie Supreme",
+              "price": 200,
+              "image": "https://picsum.photos/seed/61/200/300",
+              "ingredients": ["Vegetables", "Cheese", "Tomato Sauce", "Dough"]
+            },
+            {
+              "id": 2,
+              "name": "Chicken Supreme",
+              "price": 300,
+              "image": "https://picsum.photos/seed/62/200/300",
+              "ingredients": ["Chicken", "Cheese", "Tomato Sauce", "Dough"]
+            },
+            {
+              "id": 3,
+              "name": "Paneer Supreme",
+              "price": 250,
+              "image": "https://picsum.photos/seed/63/200/300",
+              "ingredients": ["Paneer", "Cheese", "Tomato Sauce", "Dough"]
+            }
+          ]
+        },
+        {
+          "title": "Most Popular",
+          "items": [
+            {
+              "id": 1,
+              "name": "Pepperoni Pizza",
+              "price": 350,
+              "image": "https://picsum.photos/seed/64/200/300",
+              "ingredients": ["Pepperoni", "Cheese", "Tomato Sauce", "Dough"]
+            },
+            {
+              "id": 2,
+              "name": "Cheese Burst",
+              "price": 400,
+              "image": "https://picsum.photos/seed/65/200/300",
+              "ingredients": ["Cheese", "Tomato Sauce", "Dough"]
+            }
+          ]
+        },
+        {
+          "title": "Lowest of all Time",
+          "items": [
+            {
+              "id": 1,
+              "name": "Garlic Bread",
+              "price": 150,
+              "image": "https://picsum.photos/seed/66/200/300",
+              "ingredients": ["Bread", "Garlic", "Butter"]
+            },
+            {
+              "id": 2,
+              "name": "Stuffed Garlic Bread",
+              "price": 200,
+              "image": "https://picsum.photos/seed/67/200/300",
+              "ingredients": ["Bread", "Garlic", "Butter", "Cheese"]
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

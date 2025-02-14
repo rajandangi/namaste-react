@@ -32,10 +32,11 @@ const Body = () => {
     }
 
     async function fetchRestaurants() {
-        const response = await fetch(RESTAURANT_API);
-        const data = await response.json();
-        setRestaurants(data);
-        setFilteredRestaurants(data); // set filteredRestaurants to all restaurants initially
+      const response = await fetch(RESTAURANT_API);
+      const data = await response.json();
+      const restaurantList = Array.isArray(data) ? data : [];
+      setRestaurants(restaurantList);
+      setFilteredRestaurants(restaurantList); // set filteredRestaurants to all restaurants initially
     }
 
     // useEffect is a hook that runs after the first render of the component
@@ -56,6 +57,7 @@ const Body = () => {
             <div className='my-4 flex items-center gap-4'>
                 <div className="flex">
                     <input type="text"
+                        data-testid="search-input"
                         className='py-2 px-4 border border-solid border-green-200 rounded-l-lg focus:outline-none'
                         placeholder="Search Restaurants"
                         value={searchTerm}

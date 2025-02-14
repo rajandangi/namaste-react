@@ -2,7 +2,7 @@ const RestaurantCard = (props) => {
     const { data } = props;
     
     return (
-        <div className="bg-custom-gray-100 rounded-lg hover:bg-custom-gray-200">
+        <div className="bg-custom-gray-100 rounded-lg hover:bg-custom-gray-200" data-testid="restaurant-card">
             <img
                 src={data.logo || "https://picsum.photos/200/300"}
                 alt="Restaurant food"

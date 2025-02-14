@@ -13,7 +13,7 @@
         "menu": [
           {
             "title": "Recommended",
-            "items":[
+            "items": [
               {
                 "id": 1,
                 "name": "Chicken Bucket",
@@ -39,7 +39,7 @@
           },
           {
             "title": "Most Popular",
-            "items":[
+            "items": [
               {
                 "id": 1,
                 "name": "Zinger Burger",
@@ -58,7 +58,7 @@
           },
           {
             "title": "Lowest of all Time",
-            "items":[
+            "items": [
               {
                 "id": 1,
                 "name": "Chicken Wrap",
@@ -173,21 +173,45 @@
                 "name": "Whopper",
                 "price": 200,
                 "image": "https://picsum.photos/seed/31/200/300",
-                "ingredients": ["Beef", "Bun", "Lettuce", "Tomato", "Onion", "Pickles", "Sauce"]
+                "ingredients": [
+                  "Beef",
+                  "Bun",
+                  "Lettuce",
+                  "Tomato",
+                  "Onion",
+                  "Pickles",
+                  "Sauce"
+                ]
               },
               {
                 "id": 2,
                 "name": "Veggie Burger",
                 "price": 150,
                 "image": "https://picsum.photos/seed/32/200/300",
-                "ingredients": ["Vegetables", "Bun", "Lettuce", "Tomato", "Onion", "Pickles", "Sauce"]
+                "ingredients": [
+                  "Vegetables",
+                  "Bun",
+                  "Lettuce",
+                  "Tomato",
+                  "Onion",
+                  "Pickles",
+                  "Sauce"
+                ]
               },
               {
                 "id": 3,
                 "name": "Chicken Burger",
                 "price": 250,
                 "image": "https://picsum.photos/seed/33/200/300",
-                "ingredients": ["Chicken", "Bun", "Lettuce", "Tomato", "Onion", "Pickles", "Sauce"]
+                "ingredients": [
+                  "Chicken",
+                  "Bun",
+                  "Lettuce",
+                  "Tomato",
+                  "Onion",
+                  "Pickles",
+                  "Sauce"
+                ]
               },
               {
                 "id": 4,
@@ -271,21 +295,42 @@
                 "name": "Veggie Delight",
                 "price": 200,
                 "image": "https://picsum.photos/seed/41/200/300",
-                "ingredients": ["Vegetables", "Bread", "Lettuce", "Tomato", "Onion", "Sauce"]
+                "ingredients": [
+                  "Vegetables",
+                  "Bread",
+                  "Lettuce",
+                  "Tomato",
+                  "Onion",
+                  "Sauce"
+                ]
               },
               {
                 "id": 2,
                 "name": "Paneer Tikka",
                 "price": 250,
                 "image": "https://picsum.photos/seed/42/200/300",
-                "ingredients": ["Paneer", "Bread", "Lettuce", "Tomato", "Onion", "Sauce"]
+                "ingredients": [
+                  "Paneer",
+                  "Bread",
+                  "Lettuce",
+                  "Tomato",
+                  "Onion",
+                  "Sauce"
+                ]
               },
               {
                 "id": 3,
                 "name": "Chicken Ham",
                 "price": 300,
                 "image": "https://picsum.photos/seed/43/200/300",
-                "ingredients": ["Chicken", "Bread", "Lettuce", "Tomato", "Onion", "Sauce"]
+                "ingredients": [
+                  "Chicken",
+                  "Bread",
+                  "Lettuce",
+                  "Tomato",
+                  "Onion",
+                  "Sauce"
+                ]
               }
             ]
           },
@@ -297,14 +342,28 @@
                 "name": "Turkey Sub",
                 "price": 350,
                 "image": "https://picsum.photos/seed/44/200/300",
-                "ingredients": ["Turkey", "Bread", "Lettuce", "Tomato", "Onion", "Sauce"]
+                "ingredients": [
+                  "Turkey",
+                  "Bread",
+                  "Lettuce",
+                  "Tomato",
+                  "Onion",
+                  "Sauce"
+                ]
               },
               {
                 "id": 2,
                 "name": "Tuna Sub",
                 "price": 400,
                 "image": "https://picsum.photos/seed/45/200/300",
-                "ingredients": ["Tuna", "Bread", "Lettuce", "Tomato", "Onion", "Sauce"]
+                "ingredients": [
+                  "Tuna",
+                  "Bread",
+                  "Lettuce",
+                  "Tomato",
+                  "Onion",
+                  "Sauce"
+                ]
               }
             ]
           },
@@ -316,14 +375,28 @@
                 "name": "Veggie Patty",
                 "price": 150,
                 "image": "https://picsum.photos/seed/46/200/300",
-                "ingredients": ["Vegetables", "Bread", "Lettuce", "Tomato", "Onion", "Sauce"]
+                "ingredients": [
+                  "Vegetables",
+                  "Bread",
+                  "Lettuce",
+                  "Tomato",
+                  "Onion",
+                  "Sauce"
+                ]
               },
               {
                 "id": 2,
                 "name": "Chicken Patty",
                 "price": 200,
                 "image": "https://picsum.photos/seed/47/200/300",
-                "ingredients": ["Chicken", "Bread", "Lettuce", "Tomato", "Onion", "Sauce"]
+                "ingredients": [
+                  "Chicken",
+                  "Bread",
+                  "Lettuce",
+                  "Tomato",
+                  "Onion",
+                  "Sauce"
+                ]
               }
             ]
           }
