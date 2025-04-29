@@ -10,6 +10,7 @@ import RestaurantMenu from "./components/RestaurantMenu";
 import appStore from "./utils/appStore";
 import {Provider} from "react-redux";
 import Cart from "./components/Cart";
+import MemoExample from "./components/MemoExample";
 
 // Chunking/Code Splitting/ Dynamic Bundling/Lazy Loading/ On Demand Loading
 // See @https://react.dev/reference/react/lazy
@@ -18,7 +19,7 @@ const About = lazy(() => import("./components/About"));
 const AppLayout = () => {
   return (
     <Provider store={appStore}>
-      <div className="app">
+      <div className="app container mx-auto">
         <Header />
         <Outlet />
       </div>
@@ -55,6 +56,10 @@ const appRoute = createBrowserRouter([
         path: "/restaurant/:resId",
         element: <RestaurantMenu />,
       },
+      {
+        path: "/usememo-example",
+        element: <MemoExample />,
+      }
     ],
     errorElement: <Error />,
   },

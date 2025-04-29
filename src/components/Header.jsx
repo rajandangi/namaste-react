@@ -19,6 +19,7 @@ const Header = () => {
                     <li><Link className='text-[1.1rem] font-semibold' to='/'>Home</Link></li>
                     <li><Link className='text-[1.1rem] font-semibold' to='/about'>About Us</Link></li>
                     <li><Link className='text-[1.1rem] font-semibold' to='contact'>Contact Us</Link></li>
+                    <li><Link className='text-[1.1rem] font-semibold' to='usememo-example'>useMemo</Link></li>
                     <li className='text-[1.1rem] font-semibold'>
                         <Link className='text-[1.1rem] font-semibold relative' to='cart'>Cart
                             <span className='absolute flex items-center justify-center top-[-1rem] right-[-1rem] bg-green-300 rounded-full w-6 h-6 p-2 text-[0.9rem]'>
